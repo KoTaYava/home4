@@ -1,0 +1,73 @@
+Subject: [PATCH] home 3
+---
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(revision 01752b481e4688c4f631925a13af70d18bf1a4fb)
++++ b/.gitignore	(revision 01752b481e4688c4f631925a13af70d18bf1a4fb)
+@@ -0,0 +1,31 @@
++.idea/
++*.iml
++### IntelliJ IDEA ###
++out/
++!**/src/main/**/out/
++!**/src/test/**/out/
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++bin/
++!**/src/main/**/bin/
++!**/src/test/**/bin/
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+new file mode 100644
+--- /dev/null	(revision 01752b481e4688c4f631925a13af70d18bf1a4fb)
++++ b/src/Main.java	(revision 01752b481e4688c4f631925a13af70d18bf1a4fb)
+@@ -0,0 +1,18 @@
++public class Main {
++    public static void main(String[] args) {
++       //Задача 1
++        int age = 21;
++        if (age > 18) {
++            System.out.println("Если возраст человека равен " + age + " то он совершеннолетний ");
++        } else{
++            System.out.println("Если возраст человека равен " + age + " то он несовершеннолетний ");
++        }
++     int t = 12;
++     if (t < 5 ){
++         System.out.println("На улице " +  t + " градусов,  нужно надеть шапку");
++     } else{
++         System.out.println("На улице " + t + " градусов, можно идти без шапки");
++     }
++
++    }
++}
+\ No newline at end of file
