@@ -54,11 +54,13 @@ public class Main {
         int one = 1;
         int two = 2;
         int three = 3 ;
-        if (one < two){
-            if(two < three){
-                System.out.println("three");// не знаю как сделать иначе
-            }
-
+        if (one > two){
+            System.out.println("Наибольшее число " + one);
+        } else if (two > three) {
+            System.out.println("Наибольшее число " + two);}
+        else  {
+            System.out.println("three");// так логичнее, но я не уверен
         }
+
     }
 }
