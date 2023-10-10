@@ -55,9 +55,9 @@ public class Main {
         int two = 2;
         int three = 3 ;
         if (one > two){
-            System.out.println("Наибольшее число " + one);
+            System.out.println("Наибольшее число one ");
         } else if (two > three) {
-            System.out.println("Наибольшее число " + two);}
+            System.out.println("Наибольшее число two ");}
         else  {
             System.out.println("three");// так логичнее, но я не уверен
         }
