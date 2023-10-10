@@ -33,5 +33,34 @@ public class Main {
             System.out.println("Если возраст человека равен " + userAge + " , то ему нужно ходить на работу ");
         }
         //Задача 5
+        int aktAge = 14;
+        if (aktAge <= 5){
+            System.out.println("Если возраст ребенка равен " + aktAge + " , то ему нельзя кататься на аттракционе");
+        } else if (aktAge < 5 || aktAge > 14 ) {
+            System.out.println("Если возраст ребенка равен " + aktAge + " , то ему можно кататься с сопровождением взрослого");
+        }else if (aktAge >= 14){
+            System.out.println("Если возраст ребенка равен " + aktAge + " , то ему можно кататься без сопровождения взрослого");
+        }
+        //Задача 6
+        int human = 63;
+        if (human <= 60){
+            System.out.println("В вагоне есть " + (60-human) + " сидяих места и 42 стоячих");
+        } else if (human > 60 && human <102) {
+            System.out.println("В вагоне заокончились сидячие места и осталось "+ (102- human) + " стоячих мест "  );
+        }else {
+            System.out.println("Вагон полностью забит");
+        }
+        //Задача 7
+        int one = 1;
+        int two = 2;
+        int three = 3 ;
+        if (one > two){
+            System.out.println("Наибольшее число one ");
+        } else if (two > three) {
+            System.out.println("Наибольшее число two ");}
+        else  {
+            System.out.println("three");// так логичнее, но я не уверен
+        }
+
     }
 }
